@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(181, 228, 189);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.field {
+    width: 50vh;
+    height: 50vh;
+    position: relative;
+    border-collapse: collapse;
+}
+
+.field td {
+    width: 33%;
+    height: 33%;
+    border: 2px black solid;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 60px;
+}
+
+.field tr td:last-child {
+    border-right: none;
+}
+
+.field tr td:first-child {
+    border-left: none;
+}
+
+.field tr:nth-child(1) td {
+    border-top: none;
+}
+
+.field tr:nth-child(3) td {
+    border-bottom: none;
+}
+
+.field td h2 {
+    padding: 0;
+    margin: 0;
+}
